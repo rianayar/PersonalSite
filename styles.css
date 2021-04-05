@@ -1,0 +1,116 @@
+/* Formatting of entire body section */
+* { 
+  margin: 0px;
+  padding: 5px;
+}
+
+.container { 
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Body Background color */
+body {
+  background-image: url("https://cdn.glitch.com/96e8296e-e1b2-45af-949b-64b96a0e0f34%2Fpastel.jpg?v=1596558981432");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+  
+}
+
+/* Hyperlinks for Navigation */
+.ahref {
+  text-decoration: none;
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Top Navigation Bar */
+.topbar {
+  background-image: linear-gradient(#ccffff, #ffffcc);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* Top Left Logo */
+#RN {
+  float: left;
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
+}
+
+/* Top Bar Navigation Links */
+.navbar {
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+}
+
+/* Top Bar Navigation Links */
+li {
+  display: inline;
+}
+
+/* Footer Styling */
+.footer {
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+  background-image: linear-gradient(#ffffcc, #ccffff);
+  width: 100%;
+/*   position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+/*   position: absolute;
+  right: 0;
+  left: 0;
+  bottom: ; */
+/*   position: relative; */
+/*     position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%; */
+/*   height: 2.5rem;  */ 
+}
+
+/* Images on Home Page */
+.categories {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/* Images on Home Page Styling */
+.catimg {
+  border-radius: 100%;
+}
+
+/* Portfolio Images */
+.project {
+  display: flex;
+}
+
+.portimg {
+  border-radius: 100%;
+  display: flex;
+}
