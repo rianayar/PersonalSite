@@ -1,8 +1,16 @@
-# Personal Website Starter Project
+# Personal Website Portfolio
 
-This is a place for you to start building your first project -- your personal website!
+This is my personal website, built completely from scratch. I made use of HTML, CSS, and JS to build this site.
 
-## Project Requirements
+
+# Pages
+
+Home - general information about me and picture
+Portfolio - volunteering projects
+Links - web articles, youtube, etc.
+Contact Me - gmail and instagram
+Blog - posts about important days and topics
+
 Your project should:
 - Include one "Home" HTML page (that will be index.html) that's all about you!
 - Include one "Portfolio" HTML page that will showcase the projects you build in class.
